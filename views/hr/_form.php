@@ -9,7 +9,7 @@ use yii\widgets\ActiveForm;
 ?>
 
 <div class="hr-form">
-
+    <h3>Bu Hr Master branchidan olinyabdi</h3>
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'fish')->textInput(['maxlength' => true]) ?>
